@@ -2,19 +2,28 @@
 <html>
 <head>
     <title>Contact Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Homework01-Portfolio/Assets/css/reset.css">
+    <link rel="stylesheet" href="Homework01-Portfolio/Assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>Say Hello</h1> 
-    <h2>Excited to hear from you...</h2>
-    <div class="container">
+    <div class="topnav">
+                <a class="active" href="#andrew"><strong>Andrew J. Myers</strong></a>
+                <a href="#index">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>        
+    </div>
+    <div class="pagetitle">
+            <h1>Say Hello</h1> 
+          </div>
+    <div class="contact">
          <form action="action_page.php">
                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your name..">  
+                <input type="text" id="name" name="name" placeholder="Your name...">  
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Your email"
+                <input type="text" id="email" name="email" placeholder="Your email">
                 <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Write something.." style="height:400px"></textarea>
+                <textarea id="message" name="message" placeholder="Write something..." style="height:400px"></textarea>
               
                   <input type="submit" value="Submit">
               
