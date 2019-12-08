@@ -142,7 +142,10 @@ input[type=submit]:hover {
   height: 100px;
   border: 2px solid;
   color: white;
-  
+  float: left;
+  padding: 25px;
+  text-align: center;
+  vertical-align: baseline;
 }
 .example2{
   background-image: url("https://i.imgur.com/sT9qNNj.jpg");
@@ -151,7 +154,9 @@ input[type=submit]:hover {
   height: 100px;
   border: 2px solid;
   color: white;
-
+  float: left;
+  padding: 25px;
+  text-align: center;
 
 }
 .example3{
@@ -161,7 +166,10 @@ input[type=submit]:hover {
   height: 100px;
   border: 2px solid;
   color: white;
-  
+  clear: left;
+  float: left;
+  padding: 25px;
+  text-align: center;
 }
 .example4{
   background-image: url("https://i.imgur.com/H7UNJBA.jpg");
@@ -170,7 +178,9 @@ input[type=submit]:hover {
   height: 100px;
   border: 2px solid;
   color: white;
-  
+  float: left;
+  padding: 25px;
+  text-align: center;
 }
 .example5{
   background-image: url("https://i.imgur.com/3IFrIRo.jpg");
@@ -179,7 +189,10 @@ input[type=submit]:hover {
   height: 100px;
   border: 2px solid;
   color: white;
-  
+  clear: left;
+  float: left;
+  padding: 25px;
+  text-align: center;
 
 }
 
@@ -191,12 +204,33 @@ input[type=submit]:hover {
     /* Equal to height of footer */
     /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -50px;
-    background-color: #666666
+    background-color: #666666;
+    
+    
   }
   .footer,
   .push {
     height: 25px;
     background-color: #666666;
+    bottom: 
+   
+  }
+  .wrapper1 {
+    min-height: 25px;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+    background-color: #666666;
+  
+    
+    
+  }
+  .footer1,
+  .push1 {
+    height: 25px;
+    background-color: #666666;
+  
   }
 
 
